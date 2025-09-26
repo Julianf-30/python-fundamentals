@@ -41,3 +41,4 @@ print("Result 4: ",result4)
 result5=5+2**3*(4-1)
 print("Result 5:", result5)
 
+#CHALLENGES
