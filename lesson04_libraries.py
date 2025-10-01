@@ -45,8 +45,8 @@ print(mylist)
 #Challenge 1: Circle Area with Math Library
 
 radius=7
-circle_area=math.pi * math.exp(radius)
-print(circle_area)
+circle_area=math.pi * math.exp(radius, 2)
+print(math.floor(circle_area))
 
 #Challenge 2
 
