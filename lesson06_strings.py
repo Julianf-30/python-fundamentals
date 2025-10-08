@@ -25,3 +25,22 @@ length_of_word = print(len(Country))
 phrase = "SpOngEBOB"
 print("\nUppercase:", phrase.upper())
 print("\nlowercase:", phrase.lower())
+
+#Find and replace 
+sentence = "James likes online poker"
+new_sentence = sentence.replace("online poker", "hockey")
+print(sentence)
+print(new_sentence)
+
+#Formatted Strings
+
+name="Julian"
+age=14
+city="tewksbury"
+
+print(f"Hello, my name is {name}. I am {age} years old and live in {city}.")
+ 
+ 
+#f-strings can do math and function calls inside {}
+
+print(f"next year, I'll be {age+1}. My name in uppercase is {name.upper()}")
